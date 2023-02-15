@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2020", "dom"],
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules/**/*", "dist/**/*"]
+}
