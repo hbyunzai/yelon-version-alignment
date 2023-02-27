@@ -9,7 +9,7 @@ export function fetchOriginJSON(): Promise<PackageJSON> {
   let total_bytes = 0;
   return new Promise((resolve, reject) => {
     const req = https.get(
-      "https://raw.githubusercontent.com/hbyunzai/ng-yunzai/master/package.json"
+      "https://gitee.com/hbyunzai/ng-yunzai/raw/master/package.json"
     );
     let data = "";
     req.on("response", (response) => {
